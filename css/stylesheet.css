@@ -3,7 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    /* background-color: #FEDBB5; */
+    background-color: #fde7d0;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -13,25 +14,25 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 120px;
     padding: 0px 90px;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,1);
-    border: 3px solid rgb(3, 3, 3);
+    background-color: #772017;
+    border-bottom: 3px solid rgb(3, 3, 3);
 }
 
 .logo{
     width: 150;
-    height: 80px;
+    height: 90px;
     color: rgb(237, 176, 97);
-    padding: 5px 20px;
+    padding: 15px 20px;
     height: 60px;
     display: inline-block;
 }
 
 .nav-bar{
-    padding-right: 10px;
-    padding-top: 30px;
+    padding-right: 0px;
+    padding-top: 50px;
 }
 
 ul{
@@ -55,11 +56,12 @@ ul li a{
     transition: all ease-in 0.3s;
 }
 
-ul li a:hover{
+
+ul li a:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: black;
-    background-color: darkgoldenrod;
+    background-color: #53591B;
     border-radius: 23px;
 }
 
@@ -98,12 +100,16 @@ header{
     height: 50px;
 }
 
+
+
+/* About Page */
+
 .artist-bio{
     float: left;
     width: 355px;
     height: 200px;
     margin-top: 100px;
-    margin-left: 110px;
+    margin-left: 150px;
     margin-bottom: 200px;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
@@ -114,24 +120,38 @@ header{
 
 .artist-pic{
     margin-top: 50px;
-    margin-left: 125px;
+    margin-left: 100px;
     margin-bottom: 200px;
     float: left;
     width: 575px;
     height: 500px;
     /* border-radius: 4; */
 }
+/* About Page End */
+
+
+
+
+/* Contact Page */
 
 .contact-greeting{
     width: 50%;
     margin-top: 100px;
-    margin-left: 150px;
+    margin-left: 80px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
 }
+
+.form {
+    margin-left: 100px;
+    margin-bottom: 200px;
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding: 20px;
+  }
 
 input[type=text], select {
     width: 50%;
@@ -162,22 +182,40 @@ input[type=text], select {
   input[type=submit]:hover {
     background-color: #CAA15D;
   }
-  
-  .form {
-    margin-left: 200px;
-    margin-bottom: 200px;
-    border-radius: 5px;
-    /* background-color: #f2f2f2; */
-    padding: 20px;
-  }
 
-  .contact-pic{
+  .map{
     margin-top: 100;
-    margin-right: 150px;
+    margin-right: 50px;
     float: right;
-    width: 400px;
-    height: 308px;
+    width: 500px;
+    height: 408px;
     border: 2px solid black;
-    /* border-radius: 4;  */
+}
+/* Contact Page End */
+
+
+/* Tattoo Page */
+.tattoo-paragraph{
+    padding-top: 50px;
+    text-align: center;
 }
 
+.gallery {
+    margin: 50px 30px 15px 110px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+.gallery:hover {
+    border: 2px solid rgb(198, 22, 22);
+  }
+  
+.gallery img {
+    width: 300px;
+    height: 300px;
+  }
+
+  /* Tattoo Page End*/
