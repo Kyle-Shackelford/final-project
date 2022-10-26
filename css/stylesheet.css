@@ -24,7 +24,6 @@ nav{
 .logo{
     width: 150;
     height: 90px;
-    color: rgb(237, 176, 97);
     padding: 15px 20px;
     height: 60px;
     display: inline-block;
@@ -46,7 +45,7 @@ ul{
 
 ul li a{
     line-height: 80px;
-    color: rgb(219, 209, 172);
+    color: #FDE7D0;
     padding: 8px 40px;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -61,7 +60,7 @@ ul li a:hover {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: black;
-    background-color: #53591B;
+    background-color: #fde7d0;
     border-radius: 23px;
 }
 
@@ -87,19 +86,6 @@ section{
     letter-spacing: 9px;
     clear: both;
 }
-
-
-.about-main{
-    margin-left: 100px;
-    width: 900px;
-    height: 400px;
-    border: 1px solid red;
-}
-
-header{
-    height: 50px;
-}
-
 
 
 /* About Page */
@@ -194,14 +180,15 @@ input[type=text], select {
 /* Contact Page End */
 
 
-/* Tattoo Page */
+/* Tattoos Page */
+
 .tattoo-paragraph{
     padding-top: 50px;
     text-align: center;
 }
 
 .gallery {
-    margin: 50px 30px 15px 110px;
+    margin: 50px 30px 15px 115px;
     border: 1px solid #ccc;
     float: left;
     width: 300px;
@@ -218,4 +205,17 @@ input[type=text], select {
     height: 300px;
   }
 
-  /* Tattoo Page End*/
+  /* Tattoos Page End*/
+
+
+  /* Footer */
+
+  .fa {
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
